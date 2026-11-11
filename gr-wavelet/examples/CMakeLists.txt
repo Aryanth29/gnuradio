@@ -1,4 +1,4 @@
-# Copyright 2026 Free Software Foundation, Inc.
+# Copyright 2026 Aryan Thakkar
 #
 # This file is part of GNU Radio
 #

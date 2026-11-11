@@ -109,7 +109,7 @@ class test_classify(gr_unittest.TestCase):
         sum /= float(len(src_data))
         assert sum < 1e-6
 
-    def test_004_(self):
+    def test_004_invertibility(self):
         n = 256
         o = 4
         a = numpy.arange(n)
@@ -163,7 +163,7 @@ class test_classify(gr_unittest.TestCase):
         sum /= float(len(snk_data))
         assert sum < 1e-6
 
-    def test_006_(self):
+    def test_006_energy_conservation(self):
         n = 256
         o = 4
         a = numpy.arange(n)

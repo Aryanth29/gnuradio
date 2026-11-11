@@ -25,6 +25,8 @@ options:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [8, 8]
+    rotation: 0
     state: enabled
 
 blocks:
@@ -37,6 +39,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [384, 12]
+    rotation: 0
     state: enabled
 - name: samp_rate
   id: variable
@@ -47,6 +51,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [200, 12]
+    rotation: 0
     state: enabled
 - name: vec_len
   id: variable
@@ -57,6 +63,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [296, 12]
+    rotation: 0
     state: enabled
 - name: analog_noise_source_x_0
   id: analog_noise_source_x
@@ -74,6 +82,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [40, 300]
+    rotation: 0
     state: enabled
 - name: analog_sig_source_x_0
   id: analog_sig_source_x
@@ -95,6 +105,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [40, 132]
+    rotation: 0
     state: enabled
 - name: blocks_add_xx_0
   id: blocks_add_xx
@@ -111,6 +123,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [272, 216]
+    rotation: 0
     state: enabled
 - name: blocks_stream_to_vector_0
   id: blocks_stream_to_vector
@@ -127,6 +141,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [608, 228]
+    rotation: 0
     state: enabled
 - name: blocks_throttle2_0
   id: blocks_throttle2
@@ -146,6 +162,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [400, 212]
+    rotation: 0
     state: enabled
 - name: blocks_vector_to_stream_0
   id: blocks_vector_to_stream
@@ -162,6 +180,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [1208, 228]
+    rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_0
   id: qtgui_time_sink_x
@@ -257,6 +277,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [1432, 116]
+    rotation: 0
     state: enabled
 - name: qtgui_vector_sink_f_0
   id: qtgui_vector_sink_f
@@ -329,6 +351,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [1208, 316]
+    rotation: 0
     state: enabled
 - name: wavelet_wavelet_ff_0
   id: wavelet_wavelet_ff
@@ -345,6 +369,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [808, 212]
+    rotation: 0
     state: enabled
 - name: wavelet_wavelet_ff_1
   id: wavelet_wavelet_ff
@@ -361,6 +387,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [1000, 212]
+    rotation: 0
     state: enabled
 - name: wavelet_wvps_ff_0
   id: wavelet_wvps_ff
@@ -375,6 +403,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
+    coordinate: [1000, 356]
+    rotation: 0
     state: enabled
 
 connections:
